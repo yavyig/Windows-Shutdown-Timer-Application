@@ -34,7 +34,11 @@ int main() {
 
 	while (ss > 0) {
 		Sleep(1000); //means one second
-		clear();
+		//clear
+		for (int i = 0; i < 50; i++)
+		{
+			cout << endl;
+		}
 		cout << "==========================" << endl;
 		cout << "= WINDOWS SHUTDOWN TIMER =" << endl;
 		cout << "==========================" << endl << endl;
